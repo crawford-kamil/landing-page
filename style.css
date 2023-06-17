@@ -31,6 +31,26 @@ ul {
 .first {
     display: flex;
     background-color: orange;
+    justify-content: space-around;
+    padding: 0px 190px;
+    /* background-color: #1F2937; */
+}
+
+.top-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FaF8
+}
+
+.top-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-button {
+    display: flex;
+    border: none;
+    background-color: #3882F6;
 }
 
 .second-title {

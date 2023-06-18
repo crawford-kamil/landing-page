@@ -72,7 +72,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 190px;
+    gap: 150px;
     text-align: center;
 }
 
@@ -106,6 +106,7 @@ ul {
     background-color: #3882F6;
     padding: 25px 0px;
     margin: 50px;
+    border-radius: 10px;
 }
 
 .fourth-title {
@@ -125,4 +126,25 @@ footer {
     color: #E5E7EB;
     justify-content: center;
     padding: 25px;
+}
+
+button {
+    background-color:#3882F6;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.border-button {
+    background-color:#3882F6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    justify-content: center;
+    align-self: center ;
+}
+
+.second img {
+    border-radius: 10%;
 }

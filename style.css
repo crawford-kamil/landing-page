@@ -97,7 +97,32 @@ ul {
 }
 
 .fourth {
+    margin: 0 100px;
+}
+
+.blue {
     display: flex;
-    justify-content: space-between;
-    background-color: blue;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 25px 0px;
+    margin: 50px;
+}
+
+.fourth-title {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.fourth-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    display:flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 25px;
 }

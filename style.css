@@ -31,10 +31,9 @@ ul {
 
 .first {
     display: flex;
-    background-color: orange;
     justify-content: space-around;
-    padding: 0px 170px;
-    /* background-color: #1F2937; */
+    padding: 0px 100px;
+    background-color: #1F2937;
 }
 
 .first-content {
@@ -75,7 +74,6 @@ ul {
     justify-content: space-around;
     gap: 190px;
     text-align: center;
-
 }
 
 .first-image, .second-image, .third-image, .fourth-image {
@@ -86,7 +84,16 @@ ul {
 
 
 .third {
-    background-color: green;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font: light;
+    padding: 100px 150px;
+    align-items: center;
+}
+
+.quoter {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .fourth {
@@ -94,4 +101,3 @@ ul {
     justify-content: space-between;
     background-color: blue;
 }
-
